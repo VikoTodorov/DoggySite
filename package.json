@@ -1,0 +1,27 @@
+{
+  "name": "doggysite",
+  "version": "1.0.0",
+  "description": "Site about dogs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VikoTodorov/DoggySite.git"
+  },
+  "keywords": [
+    "doggy"
+  ],
+  "author": "VikoTodorov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VikoTodorov/DoggySite/issues"
+  },
+  "homepage": "https://github.com/VikoTodorov/DoggySite#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}
