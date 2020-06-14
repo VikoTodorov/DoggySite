@@ -64,6 +64,14 @@ nav a {
     text-align: center;
 }
 
+.nav-right {
+    display: inline-block;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 0;
+}
+
 /* Change color on hover */
 nav a:hover, .dropdown-content a:hover {
     background-color: #756417;
