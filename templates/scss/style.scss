@@ -20,14 +20,35 @@ main {
 }
 
 .main-content {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.main-content h2 {
     padding-top: 5%;
     text-align: center;
     font-family: Sofia;
     margin: 0% auto;
 }
+
+.main-content img { 
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 50vh;
+}
+
+.homepage {
+    padding-top: 5%;
+    text-align: center;
+    font-family: Sofia;
+    margin: 0% auto;
+}
+
 aside {
     background-color: #f0dda1;
     display: none;
+    min-width: 10%;
 }
 header, main, footer {
     flex-shrink: 0;
@@ -47,7 +68,6 @@ header {
     color: white;
 }
 
-/* Style the top navigation bar */
 nav {
     display: flex;
     background-color: #463a07;
@@ -56,7 +76,6 @@ nav {
     top: 0;
 }
 
-/* Style the navigation bar links */
 nav a {
     color: #c4c4c2;
     padding: 14px 20px;
@@ -65,15 +84,11 @@ nav a {
 }
 
 .nav-right {
-    display: inline-block;
-    border: none;
-    outline: none;
-    position: absolute;
-    right: 0;
+    //justify-self: flex-end;
+    margin-left: auto;
 }
 
-/* Change color on hover */
-nav a:hover, .dropdown-content a:hover {
+nav a:hover {
     background-color: #756417;
     color: black;
 }
@@ -120,6 +135,12 @@ footer > h2 {
     margin: 0px;
 }
 
+.drop-btn {
+    width: 100%;
+    display: inline-block;
+}
+
+
 .dropdown {
     float: left;
     overflow: hidden;
@@ -132,8 +153,8 @@ footer > h2 {
     outline: none;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit;
-    margin: 0;
+    font-family: inherit; 
+
 }
 .dropdown-content {
     color: #c4c4c2;
@@ -197,8 +218,23 @@ footer > h2 {
     display: block;
 }
 
+.breeds-active {
+    display: block;
+}
+
+.drop-btn-inner {
+    width: 100%;
+    display: inline-block;
+}
+
 @media screen and (max-width: 700px) {
     nav {
         flex-direction: column;
+    }
+    .breeds-active{
+        display: none;
+    }
+    .nav-right {
+        margin: auto;
     }
 }
