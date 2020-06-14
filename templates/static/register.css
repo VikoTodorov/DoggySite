@@ -1,0 +1,24 @@
+main {
+  display: flex;
+  flex-direction: column; }
+
+main h2, label {
+  text-align: center;
+  font-family: Sofia;
+  font-size: 24px; }
+
+main > h2 {
+  font-size: 32px; }
+
+form {
+  min-width: 25%;
+  min-height: 15%;
+  margin: 0 auto; }
+
+input {
+  margin: 3%;
+  padding: 20px;
+  width: 100%; }
+
+input[type="submit"] {
+  padding: 15px; }
